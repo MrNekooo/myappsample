@@ -1,0 +1,60 @@
+<!-- git init ===> this program support with git -->
+
+
+<!-- git config --global ===> Send your Information -->
+
+
+<!-- git add index.html ===> save program to git -->
+<!-- git add *.html ===> save any html files that there's in the folder -->
+<!-- git add . ===> save every files  -->
+
+
+<!-- git rm --cached index.html ===> Remove program from git -->
+
+
+<!-- git status ===> Check the git -->
+
+
+<!-- When you change the program it must remove from git Automaticlly
+ in this issuses we must add it again in git -->
+
+
+<!-- git commit -m ' '  ===> it's another way to save program 
+  with some informations
+  e.g. git commit -m "Changed Code" or
+  git commit -m "Add a button" -->
+
+
+<!-- if you need to add all files in git but one file, do this
+   at first create a folder named "gitignore" with text format ".txt"
+   then write that name file in this
+   now if you write "git add ." all files are added but that file you don't want -->
+<!-- touch .gitignore -->
+<!-- movie.app -->
+<!-- git add . -->
+
+
+<!--    Change the code Without Change the main   -->
+<!--    git branch text-feature (YOUR FILE)
+        git checkout text-feature
+                ...CHANGING...
+        git commit -m "e.g. Change the code"
+        git checkout main 
+        git merge text-feature  -->
+
+<!-- git branch ... ===> sometimes we wanna change our program without
+ touching it, so Branch will copy our program then we change out copy program
+
+ than write
+ git checkout ... ===> we got a separate code, now we can set our codes
+ on this version
+ then we must save the code with "git commit -m "Change the code""
+
+ now we must write
+ git checkout main ===> get back to the main code
+ (with "checkout" we go to the code that we want and target)
+
+ now the most important, we need to push the change code in the main code
+ write
+ git merge text-feature ===> it pushes change code to the main code
+  -->
